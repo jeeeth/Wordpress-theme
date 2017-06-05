@@ -1,0 +1,32 @@
+/*
+Theme Name: Kural
+Author: Prakash
+Description: Bootstrap Based theme for Kural Consultancy
+Version: 0.0.1
+Author URI: https://fromtomorrow.000webhostapp.com/
+Tags: bootstrap,Kural Consultancy, Worpdress
+*/
+
+/*slider animation*/
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(1, 1);
+  }
+  to {
+    -webkit-transform: scale(1.5, 1.5);
+  }
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(1, 1);
+  }
+  to {
+    transform: scale(1.5, 1.5);
+  }
+}
+
+.carousel-inner .item > img {
+  -webkit-animation: zoom 20s !important;
+  animation: zoom 20s !important;
+}
